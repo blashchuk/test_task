@@ -1,0 +1,3 @@
+1. Install Yeoman dependencies and angular generator (http://yeoman.io/learning/index.html).
+2. Run 'npm install' and 'bower install'.
+3. Run 'grunt serve'.
