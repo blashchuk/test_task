@@ -5,6 +5,8 @@ version 0.12.1.
 
 ## Build & development
 
+Install Yeoman dependencies and angular generator (http://yeoman.io/learning/index.html)
+
 Run `npm install` and `bower install`.
 
 Run `grunt` for building and `grunt serve` for preview.
