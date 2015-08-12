@@ -1,0 +1,7 @@
+<div class='repo'>
+	<p class='login'><span>User:</span> {{repo.owner.login}}</p>
+	<p><span>Branches:</span></p>
+	<div ng-repeat='branch in branches'>
+		<p>{{branch.name}} | <a href="commits/{{repo.owner.login}}/{{repo.name}}/{{branch.commit.sha}}">Commits</a></p>
+	</div>
+</div>

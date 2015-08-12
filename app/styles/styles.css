@@ -1,0 +1,70 @@
+.avatar{
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+
+.full-avatar{
+	max-width: 300px;
+	max-height: 300px;
+	float: left;
+	border-radius: 10px;
+}
+
+.hover-user:hover{
+	background-color: #D0D0D0;
+}
+
+.user-data{
+	padding: 15px;
+}
+
+.user-data p{
+	margin-left: 60px;
+}
+
+.user-data p span{
+	padding-left: 20px;
+}
+
+.header-block{
+	height: 45px;
+	padding: 10px;
+}
+
+.header-block .text{
+	position: absolute;
+    left: 45%;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.header{
+	background-color: #D8D8D8;
+}
+
+.profile span{
+	font-weight: bold;
+}
+
+.profile .repos-list{
+	clear: both;
+	padding: 15px;
+}
+
+.repo span{
+	font-weight: bold;
+}
+
+.repo .login{
+	font-size: large;
+}
+
+.commits span{
+	font-weight: bold;
+}
+
+.user-list .more-button{
+	text-align: center;
+	margin-bottom: 25px;
+}

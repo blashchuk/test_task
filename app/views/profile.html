@@ -1,0 +1,14 @@
+<div class='profile'>
+    <div class='user-data'>
+        <img class='full-avatar' ng-src='{{user.avatar_url}}'>
+        <p ng-show='user.login'><span>Login:</span> {{user.login}}</p>
+        <p ng-show='user.name'><span>Name:</span> {{user.name}}</p>
+        <p ng-show='user.email'><span>Email:</span> {{user.email}}</p>
+    </div>
+    <div class='repos-list' ng-show='repos.length != 0'>
+        <p><span>Repositories:</span></p>
+        <div ng-repeat='repo in repos'>
+        	<a href='repo-info/{{repo.id}}'>{{repo.name}}</a>
+        </div>
+    </div>
+</div>
